@@ -1,0 +1,447 @@
+html {
+	!important;
+}
+
+p {
+	!important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: top;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear:after {
+	content: "";
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+
+.IE {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: black;
+	font-size: 30px;
+	line-height: 1000px;
+	color: #fff;
+	text-align: center;
+	z-index: 99999;
+}
+
+
+/******************以上是公共声明************************/
+
+
+/******************以上是头部************************/
+
+.tu2,
+.tu3,
+.tu4 {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	line-height: 30px;
+	padding: 40px 20px;
+	background: rgb(245, 245, 245);
+	text-align: center;
+	transition: all 1s linear;
+}
+
+.tu1 {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	line-height: 30px;
+	padding: 38px 20px;
+	background: rgb(245, 245, 245);
+	text-align: center;
+	transition: all 1s linear;
+}
+
+.tu1:hover {
+	background: rgb(177, 165, 136);
+}
+
+.tu2:hover {
+	background: rgb(177, 165, 136);
+}
+
+.tu3:hover {
+	background: rgb(177, 165, 136);
+}
+
+.tu4:hover {
+	background: rgb(177, 165, 136);
+}
+
+.tu1 .pp {
+	font-size: 24px;
+	font-family: 微软雅黑;
+}
+
+.tu2 .pp {
+	font-size: 24px;
+	font-family: 微软雅黑;
+}
+
+.tu3 .pp {
+	font-size: 24px;
+	font-family: 微软雅黑;
+}
+
+.tu4 .pp {
+	font-size: 24px;
+	font-family: 微软雅黑;
+}
+
+.contact {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.contact-con {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-con ul {
+	cursor: pointer;
+}
+
+.contact-con ul li {
+	width: 180px;
+	height: 180px;
+	padding-top: 50px;
+	margin: 0 auto;
+	border-top-left-radius: 40%;
+	border-bottom-right-radius: 40%;
+	background-color: #fff;
+	border: 1px solid rgb(177, 165, 136);
+	;
+}
+
+.contact-con ul li span {
+	width: 120px;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("../image/f_zanzhushang.png");
+	background-repeat: no-repeat;
+	-ms-background-position-y: 0px;
+	background-position-y: 0px;
+	transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+}
+
+.contact-con ul:hover li {
+	border: 1px solid red;
+}
+
+.contact-con ul:hover p {
+	font-family: 黑体;
+	color: #c6a16a;
+}
+
+
+/*.contact-con ul:hover i{
+    color: #444;
+}*/
+
+.contact-con ul:hover li span {
+	background-position-y: -90px;
+	transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-webkit-transition: all 0.4s linear;
+}
+
+.contact-ul1 span {
+	background-position-x: -540px;
+}
+
+.contact-ul2 span {
+	background-position-x: -200px;
+}
+
+.contact-ul3 span {
+	background-position-x: -20px;
+}
+
+.contact-ul4 span {
+	background-position-x: -880px;
+}
+
+.contact-ul5 span {
+	background-position-x: -700px;
+}
+
+.contact-ul6 span {
+	background-position-x: -200px;
+}
+
+.contact-con ul p {
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.contact-con ul h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Impact';
+	color: #c6a16a;
+}
+
+.contact-con ul i {
+	display: block;
+	line-height: 25px;
+	color: #888;
+}
+
+.d4 .t1 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.d4 .t1 p {
+	width: 100%;
+	height: 100%;
+	line-height: 250px;
+	position: absolute;
+	background: rgba(220, 199, 152, 0.3);
+	text-align: center;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+}
+
+.d4 .t1:hover p {
+	transform: translateX(-100%);
+}
+
+.d4 .t2 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.d4 .t2 p {
+	width: 100%;
+	height: 100%;
+	line-height: 250px;
+	position: absolute;
+	background: rgba(220, 199, 152, 0.3);
+	text-align: center;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+}
+
+.d4 .t2:hover p {
+	/*  transform:scale(2,2);*/
+	transform: translateY(100%);
+}
+
+.d4 .t3 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.d4 .t3 p {
+	width: 100%;
+	height: 100%;
+	line-height: 250px;
+	position: absolute;
+	background: rgba(220, 199, 152, 0.3);
+	text-align: center;
+	top: 0;
+	left: 0;
+	transition: all 1s linear;
+}
+
+.d4 .t3:hover p {
+	transform: translateX(100%);
+}
+
+.zong {
+	margin-top: 50px;
+	background: rgb(43, 43, 43);
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.zong ul li {
+	margin-top: 30px;
+	color: #CCC;
+}
+
+.wei {
+	color: #FFF;
+}
+
+.xin-right {
+	color: #FFF;
+	margin-top: 80px;
+}
+
+.xin-right .h3 {
+	color: #999;
+}
+
+.xin-left {
+	margin-top: 50px;
+}
+
+.bei {
+	color: #CCC;
+	margin-bottom: 30px;
+}
+
+@media (min-width:480px) {
+	.d4 .t1 p {
+		width: 100%;
+		height: 100%;
+		line-height: 450px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.5);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t2 p {
+		width: 100%;
+		height: 100%;
+		line-height: 450px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t3 p {
+		width: 100%;
+		height: 100%;
+		line-height: 450px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+}
+
+@media (min-width:992px) {
+	.contact-con {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.d4 .t1 p {
+		width: 100%;
+		height: 100%;
+		line-height: 250px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.5);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t2 p {
+		width: 100%;
+		height: 100%;
+		line-height: 250px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t3 p {
+		width: 100%;
+		height: 100%;
+		line-height: 250px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+}
+
+@media (min-width:1280px) {
+	.contact-con {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.d4 .t1 p {
+		width: 100%;
+		height: 100%;
+		line-height: 270px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.5);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t2 p {
+		width: 100%;
+		height: 100%;
+		line-height: 250px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+	.d4 .t3 p {
+		width: 100%;
+		height: 100%;
+		line-height: 250px;
+		position: absolute;
+		background: rgba(220, 199, 152, 0.3);
+		text-align: center;
+		top: 0;
+		left: 0;
+		transition: all 1s linear;
+	}
+}

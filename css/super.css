@@ -1,0 +1,229 @@
+html {
+	!important;
+}
+
+p {
+	!important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: top;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear:after {
+	content: "";
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+
+.IE {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: black;
+	font-size: 30px;
+	line-height: 1000px;
+	color: #fff;
+	text-align: center;
+	z-index: 99999;
+}
+
+
+/******************以上是公共声明************************/
+
+
+/***************************以上是导航***************************/
+
+.one {
+	width: 100%;
+}
+
+.pan {
+	text-align: center;
+	/*visibility: m;*/
+	vertical-align: middle;
+	margin-left: 2px;
+	font-size: 12px;
+}
+
+.nn {
+	margin-top: 2%;
+}
+
+.geng {
+	font-size: 12px;
+	vertical-align: middle;
+	text-align: right;
+	padding-right: 100px;
+}
+
+h2 {
+	font-family: 微软雅黑;
+	font-size: 20px;
+}
+
+.pan:hover {
+	color: red;
+}
+
+
+/*这是内容*/
+
+.we {
+	margin-top: 10px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding-top: 30px;
+}
+
+.vv {
+	margin-bottom: 4%;
+}
+
+.bb {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 15px;
+}
+
+.cc {
+	padding-bottom: 2%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.aq {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 40px;
+}
+
+.bq {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+
+.sd {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 40px;
+}
+
+.sg {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+
+.uu {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.op {
+	font-family: 微软雅黑;
+	font-size: 30px;
+}
+
+.ip {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 13px;
+}
+
+.gh {
+	color: crimson;
+}
+
+.mk {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 18px;
+}
+
+.ml {
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	width: 10%;
+	margin: 0 auto;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-radius: 20px;
+	border: 1px solid red;
+	background: white;
+}
+
+.lp {
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background: rgb(245, 245, 245);
+}
+
+
+/*以上是内容*/
+
+.zong {
+	background: rgb(43, 43, 43);
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.zong ul li {
+	margin-top: 30px;
+	color: white;
+}
+
+.wei {
+	color: #FFF;
+}
+
+.xin-right {
+	color: #FFF;
+	margin-top: 80px;
+}
+
+.xin-right .h3 {
+	color: #999;
+}
+
+.xin-left {
+	margin-top: 50px;
+}
+
+.bei {
+	color: #CCC;
+	margin-bottom: 30px;
+}
+
+@media (min-width:480px) {
+	.ff p {
+		width: 15%;
+	}
+	.a2 {
+		margin: 0 auto;
+		text-align: center;
+	}
+}

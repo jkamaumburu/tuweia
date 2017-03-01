@@ -1,0 +1,204 @@
+html {
+	!important;
+}
+
+p {
+	!important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: top;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	min-width: 80%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clear:after {
+	content: "";
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+
+.IE {
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: black;
+	font-size: 30px;
+	line-height: 1000px;
+	color: #fff;
+	text-align: center;
+	z-index: 99999;
+}
+
+
+/******************以上是公共声明************************/
+
+
+/******************以上是头部************************/
+
+.an {
+	color: white;
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+
+#myTab {
+	background: red;
+	opacity: 0.7;
+	border-radius: 5px;
+}
+
+.active {
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.zong {
+	margin-top: 3%;
+}
+
+.b1 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.b2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.a1 {
+	margin-top: 4%;
+	text-align: center;
+}
+
+.a2 {
+	margin-top: 23%;
+	text-align: center;
+}
+
+.a2 h2 {
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+
+.a2 p {
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+
+.a2 a {
+	color: #269abc;
+	font-family: 微软雅黑;
+	font-size: 16px;
+}
+
+.d1 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.d2 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.d3 {
+	margin-top: 5%;
+	text-align: center;
+}
+
+.d1 p {
+	text-align: center;
+}
+
+.fen {
+	text-align: center;
+}
+
+.ff p {
+	width: 10%;
+	background: gray;
+	text-align: center;
+	color: white;
+	padding: 1% 2%;
+	margin: 2% auto;
+}
+
+
+/*这是内容*/
+
+.bong {
+	background: rgb(43, 43, 43);
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.bong ul li {
+	margin-top: 30px;
+	color: #CCC;
+}
+
+.wei {
+	color: #FFF;
+}
+
+.xin-right {
+	color: #FFF;
+	margin-top: 80px;
+}
+
+.xin-right .h3 {
+	color: #999;
+}
+
+.xin-left {
+	margin-top: 50px;
+}
+
+.bei {
+	color: #CCC;
+	margin-bottom: 30px;
+}
+
+@media (min-width:480px) {
+	.ff p {
+		width: 15%;
+	}
+	.a2 {
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media (min-width:992px) {
+	.ff p {}
+	.a2 {
+		margin-top: 23%;
+		text-align: center;
+	}
+}
+
+@media (min-width:1280px) {
+	.ff p {}
+	.a2 {
+		margin-top: 23%;
+	}
+}
